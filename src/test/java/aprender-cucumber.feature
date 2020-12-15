@@ -1,7 +1,9 @@
-Feature: Aprender cucumber
+# language: pt
 
-Scenario: Deve executar especificação
-  Given que criei o arquivo corretamente
-  When executá-lo
-  Then a especificação deve finalizar com sucesso
+Funcionalidade:  Aprender cucumber
+
+Cenario: Deve executar especificação
+  Dado que criei o arquivo corretamente
+  Quando executá-lo
+  Então a especificação deve finalizar com sucesso
 
