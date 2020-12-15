@@ -36,6 +36,6 @@ public class AprenderCucumber {
     }
     @Então("o valor do contador será {int}")
     public void o_valor_do_contador_será(Integer int1) {
-        Assert.assertEquals(contador, int1);
+        Assert.assertEquals(int1, contador);
     }
 }
