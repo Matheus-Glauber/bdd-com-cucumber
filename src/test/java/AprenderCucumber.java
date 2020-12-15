@@ -1,5 +1,3 @@
-package teste;
-
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Então;
 import io.cucumber.java.pt.Quando;
@@ -9,6 +7,7 @@ public class AprenderCucumber {
     public void que_criei_o_arquivo_corretamente() {
         // Write code here that turns the phrase above into concrete actions
         //throw new io.cucumber.java.PendingException();
+        System.out.println("Criado o arquivo!");
     }
 
     @Quando("executá-lo")
